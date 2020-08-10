@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game_screen">
+    <LinearLayout
+        android:id="@+id/center_linear"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/text_view_simon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:padding="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_selector_green"
+                android:id="@+id/green_button"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:background="@drawable/shape_selector_yellow"
+                android:id="@+id/yellow_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:padding="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/red_button"
+                android:layout_gravity="center"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_selector_red" />
+
+            <Button
+
+                android:id="@+id/blue_button"
+
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_selector_blue" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simon Says"
+        android:id="@+id/text_view_simon"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_linear"
+        android:text="Wellcome to the Simon Says"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:id="@+id/normal_player_tv"/>
+
+</RelativeLayout>

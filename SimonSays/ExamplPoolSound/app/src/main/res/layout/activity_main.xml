@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/clap"
+        android:background="@drawable/clp"/>
+
+    <Button
+
+        android:id="@+id/a_key"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:soundEffectsEnabled="false"/>
+
+    <Button
+
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/b_key"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:soundEffectsEnabled="false"/>
+
+    <Button
+
+        android:id="@+id/c_key"
+        android:background="@color/colorPrimary"
+        android:layout_marginHorizontal="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:soundEffectsEnabled="false"/>
+
+    <Button
+
+        android:id="@+id/d_key"
+        android:background="@color/colorPrimary"
+        android:layout_marginHorizontal="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:soundEffectsEnabled="false"/>
+
+    <Button
+
+        android:id="@+id/e_key"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginHorizontal="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:soundEffectsEnabled="false"/>
+
+
+    <Button
+
+        android:id="@+id/f_key"
+        android:background="@color/colorPrimary"
+        android:layout_marginHorizontal="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:soundEffectsEnabled="false"/>
+
+    <Button
+
+        android:id="@+id/g_key"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginHorizontal="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:soundEffectsEnabled="false"/>
+
+    <Button
+
+        android:id="@+id/h_key"
+        android:background="@color/colorPrimary"
+        android:layout_marginHorizontal="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
